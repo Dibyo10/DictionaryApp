@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9fafc;
+    color: #333;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff !important;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffd700 !important;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .form-control {
+    border-radius: 25px;
+  }
+  
+  #searchbtn {
+    border-radius: 25px;
+    background-color: #ffd700;
+    color: #333;
+    border: none;
+  }
+  
+  #searchbtn:hover {
+    background-color: #ffcc00;
+    color: #000;
+  }
+  
+  /* Main Content */
+  .text-center {
+    margin-top: 50px;
+  }
+  
+  .display-5 {
+    font-size: 2.5rem;
+    color: #4e54c8;
+  }
+  
+  #wordheading {
+    font-weight: bold;
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #4e54c8;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #3b3f92;
+  }
+  
+  .btn-outline-secondary {
+    border-color: #8f94fb;
+    color: #8f94fb;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #8f94fb;
+    color: #fff;
+  }
+  
+  /* Image Styling */
+  img {
+    filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.2));
+  }
+  
+  /* Footer (Optional Addition) */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4e54c8;
+    color: #fff;
+    margin-top: 50px;
+  }
+  
