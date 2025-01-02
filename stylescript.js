@@ -12,7 +12,7 @@ const dictionary = (word) => {
       .then((response) => {
         console.log(response);
         wordheading.innerHTML = "Meaning of : " + response.word;
-        definition.innerHTML = response.definition.replace("2.", "<br>2.").replace("3.", "<br>3.").replace("4.", "<br>4.");
+        definition.innerHTML = response.definition.replace("2.", "<br>2.").replace("3.", "<br>3.").replace("4.", "<br>4.").replace("5.", "<br>5.").replace("6.", "<br>6.").replace("7.", "<br>7.").replace("8.", "<br>8.").replace("9.", "<br>9.").replace("10.", "<br>10.");
       })
       .catch(err => console.error(err));
   };
