@@ -27,61 +27,52 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              id="searchinput"
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit" id="searchbtn">
-              Search
-            </button>
-          </form>
-        </div>
       </div>
     </nav>
 
-    <div>
-      <div class="px-4 py-5 my-5 text-center">
-        <img
-          class="d-block mx-auto mb-4"
-          src="https://raw.githubusercontent.com/danklammer/bytesize-icons/210d2f81c340c838053eed4c5a0385fbf2a033e9/dist/icons/book.svg"
-          alt=""
-          width="72"
-          height="57"
-        />
-        <h1 class="display-5 fw-bold text-body-emphasis">
-          <span id="wordheading">Your word will appear here</span>
-        </h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">
-            <span id="definition">Welcome to the Dictionary App. Type your favourite word in the searchbar at the top and you will see the meanings here! </span>
-          </p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <a href="https://www.linkedin.com/in/dibyo-chakraborty-2a7309317/" target="_blank">
-              <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-                Talk to Author
-              </button>
-            </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUBpyVKoK3FPxVtJ7BAYWaie2npQ1LEiHUG2vAVdYyg6AE0Q/viewform?usp=dialog" target="_blank">
-              <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-                Contribute
-              </button>
-            </a>
-          </div>
+    <div class="px-4 py-5 my-5 text-center">
+      <img
+        class="d-block mx-auto mb-4"
+        src="https://raw.githubusercontent.com/danklammer/bytesize-icons/210d2f81c340c838053eed4c5a0385fbf2a033e9/dist/icons/book.svg"
+        alt=""
+        width="72"
+        height="57"
+      />
+      <h1 class="display-5 fw-bold text-body-emphasis">
+        <span id="wordheading">Your word will appear here</span>
+      </h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">
+          <span id="definition">Welcome to the Dictionary App. Type your favourite word in the searchbar at the top and you will see the meanings here! </span>
+        </p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="https://www.linkedin.com/in/dibyo-chakraborty-2a7309317/" target="_blank">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              Talk to Author
+            </button>
+          </a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeUBpyVKoK3FPxVtJ7BAYWaie2npQ1LEiHUG2vAVdYyg6AE0Q/viewform?usp=dialog" target="_blank">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+              Contribute
+            </button>
+          </a>
         </div>
       </div>
+    </div>
+
+    
+    <div class="text-center my-4">
+      <input
+        id="searchinput"
+        class="form-control d-inline-block"
+        type="search"
+        placeholder="Search"
+        aria-label="Search"
+        style="width: 300px; margin-bottom: 10px;"
+      />
+      <button class="btn btn-outline-success" type="submit" id="searchbtn">
+        Search
+      </button>
     </div>
 
     <script
