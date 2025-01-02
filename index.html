@@ -27,6 +27,23 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/" id="homebtn">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#aboutModal" id="aboutbtn">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Dibyo10/DictionaryApp" target="_blank">
+                <button type="button" class="btn btn-outline-light btn-lg px-4">
+                  GitHub
+                </button>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -60,7 +77,6 @@
       </div>
     </div>
 
-    
     <div class="text-center my-4">
       <input
         id="searchinput"
@@ -73,6 +89,41 @@
       <button class="btn btn-outline-success" type="submit" id="searchbtn">
         Search
       </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="aboutModalLabel">About the Dictionary App</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5>Description:</h5>
+            <p>The Dictionary App allows users to search for word meanings and get definitions through an integrated API. It features an elegant interface with a search bar for quick word lookups, making it easier to find the meaning of words instantly.</p>
+
+            <h5>Technologies Used:</h5>
+            <ul>
+              <li><strong>HTML5</strong>: Structure of the web page.</li>
+              <li><strong>CSS3</strong>: Styling the page with custom design and layout.</li>
+              <li><strong>Bootstrap 5</strong>: Responsive layout and UI components.</li>
+              <li><strong>JavaScript</strong>: Dynamic functionality for fetching word definitions.</li>
+              <li><strong>API</strong>: A dictionary API for retrieving word meanings.</li>
+            </ul>
+
+            <h5>Functionality:</h5>
+            <ol>
+              <li><strong>Search Bar:</strong> Users can type any word in the search bar and click the Search button to fetch its definition. Displays the word and its meaning on the page.</li>
+              <li><strong>Talk to Author:</strong> Takes users to the author's LinkedIn profile for inquiries or discussions.</li>
+              <li><strong>Contribute:</strong> Redirects users to a Google Form to contribute ideas or feedback to the app.</li>
+            </ol>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script
